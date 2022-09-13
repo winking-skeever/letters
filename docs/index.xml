@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Letters</title>
+    <link>https://winking-skeever.github.io/letters/</link>
+    <description>Recent content on Letters</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 13 Sep 2022 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://winking-skeever.github.io/letters/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>14-9-2022</title>
+      <link>https://winking-skeever.github.io/letters/post/2022-09-14/</link>
+      <pubDate>Tue, 13 Sep 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://winking-skeever.github.io/letters/post/2022-09-14/</guid>
+      <description>Happy Birthday dumbass.
+Every time I&amp;rsquo;ve met you, I&amp;rsquo;ve always returned home with something. Be it a joke, a smile, or the just this warm fuzzy feeling. There are times when I&amp;rsquo;ve tried to box this feeling in, but it has been hard. I&amp;rsquo;ve slowly come to the realization that I cannot &amp;ldquo;box in&amp;rdquo; everything I experience into quantifiable units. One of them is you. I could just not define, nor could I predict you and the things you did.</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://winking-skeever.github.io/letters/about/</link>
+      <pubDate>Tue, 13 Sep 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://winking-skeever.github.io/letters/about/</guid>
+      <description>Let&amp;rsquo;s write letters to each other more often. We can keep them here :)</description>
+    </item>
+    
+  </channel>
+</rss>

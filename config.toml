@@ -1,0 +1,22 @@
+baseURL = "https://winking-skeever.github.io/letters/"
+title = "Letters"
+paginate = 3
+languageCode = "en"
+DefaultContentLanguage = "en"
+enableInlineShortcodes = true
+footnoteReturnLinkContents = "^"
+publishDir = "docs"
+
+[author]
+  name = "You and Me"
+  abstract = "Let's keep our letters here"
+
+[taxonomies]
+category = "categories"
+tag = "tags"
+series = "series"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

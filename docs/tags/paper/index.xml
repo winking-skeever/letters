@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>paper on Notes</title>
+    <link>https://mayukhdeb.github.io/notes/tags/paper/</link>
+    <description>Recent content in paper on Notes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 03 Sep 2022 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://mayukhdeb.github.io/notes/tags/paper/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Towards a New Science of Common Sense</title>
+      <link>https://mayukhdeb.github.io/notes/post/2022-09-03-new-science-of-common-sense/</link>
+      <pubDate>Sat, 03 Sep 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://mayukhdeb.github.io/notes/post/2022-09-03-new-science-of-common-sense/</guid>
+      <description>Intro Common sense, as we know it has not yet been achieved in machines by any means despite decades of research. Today&amp;rsquo;s large language models still struggle even the smallest of riddles or mental math questions. With LLMs, we have solved language, not logic/common sense.
+AI is still very narrow. There are models which are &amp;ldquo;experts&amp;rdquo; at certain tasks, but none posess any general capabilities. AI as we know it today us super good at narrow domains like video games and image captioning.</description>
+    </item>
+    
+    <item>
+      <title>Parti - Scaling LLMs for Text to Image tasks</title>
+      <link>https://mayukhdeb.github.io/notes/post/2022-08-07-parti-image-generation/</link>
+      <pubDate>Sun, 07 Aug 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://mayukhdeb.github.io/notes/post/2022-08-07-parti-image-generation/</guid>
+      <description>Scaling Autoregressive Models for Content-Rich Text to Image Generation The architecture itself that&amp;rsquo;s used for parti (that&amp;rsquo;s what the authors call this model) is fairly simple. It&amp;rsquo;s a transformer encoder-decoder architecture paired with a ViT VQGAN in the end to tokenize/detokenize images.
+How do we tokenize images? For an autoregressive model to work, we basically have to convert everything to tokens. Tokenizing text is super easy. The problem in this case is that we also have to convert images into a sequence of tokens.</description>
+    </item>
+    
+    <item>
+      <title>The Third Wave (?)</title>
+      <link>https://mayukhdeb.github.io/notes/post/2022-08-01-the-third-wave/</link>
+      <pubDate>Mon, 01 Aug 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://mayukhdeb.github.io/notes/post/2022-08-01-the-third-wave/</guid>
+      <description>I will start by rambling a little about how learning language is harder than you think. Then I&amp;rsquo;ll move on to the main paper itself.
+Learning language is harder than you think An interesting point that was made in the article was that a language is learned not entirely through memorization. Sentences like I breaked the window are grammatically invalid, but they still manage to get the meaning accross. We manage to make a meaningful fact tuple i.</description>
+    </item>
+    
+    <item>
+      <title>Locating and Editing Factual Knowledge in GPTs</title>
+      <link>https://mayukhdeb.github.io/notes/post/2022-19-07-locating-and-editing-factual-associations-in-gpt/</link>
+      <pubDate>Tue, 19 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://mayukhdeb.github.io/notes/post/2022-19-07-locating-and-editing-factual-associations-in-gpt/</guid>
+      <description>This paper&amp;rsquo;s approach has been to develop a mechanism to identify the neuron activations that lead to a model&amp;rsquo;s factual predictions and possibly even edit existing facts.
+Key concepts and takeaways: What is a fact tuple? It is a special way to store knowledge in the form of a tuple which looks like the following:
+## (subject, relation, object) (&amp;#34;Edmunt Neupert&amp;#34;, &amp;#34;Plays the instrument&amp;#34;, &amp;#34;Piano&amp;#34;) It contains the subject (index 0), the object (index 2) and their relation (index 1).</description>
+    </item>
+    
+    <item>
+      <title>Language Models (mostly) Know What they know</title>
+      <link>https://mayukhdeb.github.io/notes/post/2022-14-07-lms-mostly-know-what-they-know/</link>
+      <pubDate>Thu, 14 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://mayukhdeb.github.io/notes/post/2022-14-07-lms-mostly-know-what-they-know/</guid>
+      <description>Can we make LMs predict which questions they&amp;rsquo;ll be able to answer correctly? It is important for LLMs to &amp;ldquo;know&amp;rdquo; what they know and what they do not know. The problem is that LMs are generally never trained to say &amp;ldquo;I do not know&amp;rdquo;. But it might be possible to quantify this ability post-training.
+This is how they approach the problem:
+ Finetune models with a value head to predict the probabiility that they can answer a given question correctly.</description>
+    </item>
+    
+    <item>
+      <title>Attention Rollout</title>
+      <link>https://mayukhdeb.github.io/notes/post/2022-04-16-attention_flow/</link>
+      <pubDate>Sat, 16 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://mayukhdeb.github.io/notes/post/2022-04-16-attention_flow/</guid>
+      <description>How is it better than just viewing raw attention maps ? Viewing raw attention maps as a way to explain transformers does not take into account the fact that we also have residual connections in the model. When we only use attention weights to approximate the flow of information in Transformers, we ignore the residual connections. But these connections play a significant role in tying corresponding positions in different layers.</description>
+    </item>
+    
+    <item>
+      <title>Generic Attention-model Explainability</title>
+      <link>https://mayukhdeb.github.io/notes/post/2022-04-16-generic_attention_model_explainability/</link>
+      <pubDate>Sat, 16 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://mayukhdeb.github.io/notes/post/2022-04-16-generic_attention_model_explainability/</guid>
+      <description>Generic Attention-model Explainability for Interpreting Bi-Modal and Encoder-Decoder Transformers Can be used to explain models like CLIP. This is how it works:
+  First, let us define an input image x_image and a list of input texts [a, b, c] where a, b and c can be any strings which can be tokenized and fed into the model.
+input_texts = [&amp;#34;a bald man&amp;#34;, &amp;#34;a rocket in space&amp;#34;, &amp;#34;a man&amp;#34;]   We do a forward pass with a tokenized image and text(s) on CLIP, and obtain logits_per_image and logits_per_text.</description>
+    </item>
+    
+    <item>
+      <title>Interpreting LMs with contrastive explanations</title>
+      <link>https://mayukhdeb.github.io/notes/post/2022-04-16-interpreting-language-models-with-contrastive-explanations/</link>
+      <pubDate>Sat, 16 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://mayukhdeb.github.io/notes/post/2022-04-16-interpreting-language-models-with-contrastive-explanations/</guid>
+      <description>Interpreting language models with contrastive explanations interpretability methods commonly used for other NLP tasks like text classification, such as gradient-based saliency maps are not as informative for LM predictions
+In general, language modeling has a large output space and a high complexity compared to other NLP tasks; at each time step, the LM chooses one word out of all vocabulary items. This contrasts with text classification (where the output space is smaller).</description>
+    </item>
+    
+    <item>
+      <title>Knowledge Neurons</title>
+      <link>https://mayukhdeb.github.io/notes/post/2022-04-16-knowledge_neurons/</link>
+      <pubDate>Sat, 16 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://mayukhdeb.github.io/notes/post/2022-04-16-knowledge_neurons/</guid>
+      <description>Knowledge Neurons The knowledge neurons paper asks the following question:
+Given an output y from an intermediate layer, how can we determine the neurons which contributed the most/least to the prediction ?
+The neurons which contribute the most to the &amp;ldquo;fact&amp;rdquo; mentioned by the model are generally tagged as the &amp;ldquo;knowledge neurons&amp;quot;.
+Procedure to find knowledge neurons   Produce n different and diverse prompts expressing this fact
+  For each prompt, calculate the attribution score of each intermediate neurons</description>
+    </item>
+    
+    <item>
+      <title>LOST - Localizing objects with self supervised transformers</title>
+      <link>https://mayukhdeb.github.io/notes/post/2022-04-16-lost-unsupervised-object-detection/</link>
+      <pubDate>Sat, 16 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://mayukhdeb.github.io/notes/post/2022-04-16-lost-unsupervised-object-detection/</guid>
+      <description>Lost - Localizing objects with self supervised transformers and no labels The core idea is to be able to use the hidden info within transformers to localize objects (&amp;ldquo;subjects&amp;rdquo;) within input images (much like a YOLO model but without further training).
+How does it work ?   First, we assume that there&amp;rsquo;s at least one object to be found in the image.
+  it relies on a selection of patches that are likely to belong to an object.</description>
+    </item>
+    
+    <item>
+      <title>Transformer intrepretability beyond attention</title>
+      <link>https://mayukhdeb.github.io/notes/post/2022-04-16-transformer_interpretability_beyond_attention/</link>
+      <pubDate>Sat, 16 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://mayukhdeb.github.io/notes/post/2022-04-16-transformer_interpretability_beyond_attention/</guid>
+      <description>Disadvantages of attention rollout and LRP Irrelevant tokens often get highlighted
+The main challenge in assigning attributions based on attentions is that attentions are combining non-linearly from one layer to the next. The rollout method assumes that attentions are combined linearly and considers paths along the pairwise attention graph. We observe that this method often leads to an emphasis on irrelevant tokens since even average attention scores can be attenuated. The method also fails to distinguish between positive and negative contributions to the decision.</description>
+    </item>
+    
+  </channel>
+</rss>
